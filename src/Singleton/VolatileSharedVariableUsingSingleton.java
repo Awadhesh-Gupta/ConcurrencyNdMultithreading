@@ -6,9 +6,9 @@ public class VolatileSharedVariableUsingSingleton  {
     }
 
     public static VolatileSharedVariableUsingSingleton  getVariable(){
-        if(variable == null)
+        if(variable == null) // Optimization
             synchronized (VolatileSharedVariableUsingSingleton .class){
-                if(variable==null)
+                if(variable==null)  //double checking
                     variable = new VolatileSharedVariableUsingSingleton ();
             }
         return variable;
