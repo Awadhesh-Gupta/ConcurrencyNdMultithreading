@@ -76,8 +76,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 Feel free to contribute or fork this repository to explore concurrent programming more deeply.
 
 ```
-
----
-
-Would you like this saved into a file and uploaded into your repo automatically, or would you prefer to copy-paste it manually into your GitHub UI or local project?
-```
